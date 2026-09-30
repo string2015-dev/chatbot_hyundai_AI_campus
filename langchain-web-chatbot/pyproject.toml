@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "langchain-web-chatbot"
+version = "0.1.0"
+description = ""
+authors = ["string2015-dev <string2015@yonsei.ac.kr>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^1.4.3"
+langchain-core = "^1.6.6"
+langchain-classic = "^1.0.8"
+langchain-community = "^0.4.2"
+langchain-openai = "^1.6.6"
+langchain-text-splitters = "^1.1.2"
+openai = "^3.22.1"
+streamlit = "^1.64.0"
+faiss-cpu = "^1.15.1"
+pypdf = "^6.19.0"
+python-dotenv = "^1.2.3"
+pandas = "^3.0.6"
+numpy = "~2.4.6"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
