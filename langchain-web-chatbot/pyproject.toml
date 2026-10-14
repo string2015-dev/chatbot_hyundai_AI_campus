@@ -21,6 +21,9 @@ pypdf = "^6.19.0"
 python-dotenv = "^1.2.3"
 pandas = "^3.0.6"
 numpy = "~2.4.6"
+langgraph = "^1.2.15"
+pydantic = "^2.14.1"
+grandalf = "^0.8"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^7.4.0"
